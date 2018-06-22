@@ -166,6 +166,8 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Areas\Contact\ContactAreaRegistration.cs" />
+    <Compile Include="Areas\Contact\Controllers\ContactController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -187,6 +189,9 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="Areas\Contact\Views\_ViewStart.cshtml" />
+    <Content Include="Areas\Contact\Views\web.config" />
+    <Content Include="Areas\Contact\Views\Contact\Index.cshtml" />
+    <Content Include="Areas\Contact\Readme.md" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.3.1.js" />
     <Content Include="Scripts\jquery-3.3.1.min.js" />

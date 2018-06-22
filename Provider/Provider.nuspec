@@ -28,7 +28,6 @@
       <files include="Areas\Contact\Views\*.*" buildAction="Compile" copyToOutput="true" />
       <files include="Areas\Contact\Models\*.*" buildAction="Compile" copyToOutput="true" />
       <files include="Areas\Contact\ContactAreaRegistration.cs" buildAction="Compile" copyToOutput="true" />
-      <files include="Views\_ViewStart.cshtml" buildAction="Compile" copyToOutput="true" />
       <files include="Readme.md" buildAction="None" copyToOutput="true" />
     </contentFiles>
   </metadata>
@@ -38,6 +37,5 @@
     <file src="Areas\Contact\Models\**" target="Content\Areas\Contact\Models\" />
     <file src="Areas\Contact\ContactAreaRegistration.cs" target="Content\Areas\Contact" />
     <file src="Readme.md" target="Content\Areas\Contact" />
-    <file src="Views\_ViewStart.cshtml" target="Content\Areas\Contact\Views\" />
   </files>
 </package>
