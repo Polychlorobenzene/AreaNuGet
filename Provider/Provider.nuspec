@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>Contact</id>
+    <version>0.1.0</version>
+    <title>Contact Area</title>
+    <authors>ESD</authors>
+    <owners>ESD</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Contact Area for a consuming MVC project</description>
+    <copyright>Copyright ©  2018</copyright>
+    <dependencies>
+      <dependency id="Antlr" version="3.5.0.2" />
+      <dependency id="bootstrap" version="3.3.7" />
+      <dependency id="jQuery" version="3.3.1" />
+      <dependency id="jQuery.Validation" version="1.17.0" />
+      <dependency id="Microsoft.ApplicationInsights.Web" version="2.5.1" />
+      <dependency id="Microsoft.AspNet.Mvc" version="5.2.4" />
+      <dependency id="Microsoft.AspNet.Web.Optimization" version="1.1.3" />
+      <dependency id="Microsoft.CodeDom.Providers.DotNetCompilerPlatform" version="1.0.8" />
+      <dependency id="Microsoft.jQuery.Unobtrusive.Validation" version="3.2.4" />
+      <dependency id="Modernizr" version="2.8.3" />
+      <dependency id="Newtonsoft.Json" version="11.0.1" />
+      <dependency id="WebGrease" version="1.6.0" />
+    </dependencies>    
+    <contentFiles>
+      <files include="Areas\Contact\Controllers\*.*" buildAction="Compile" copyToOutput="true" />
+      <files include="Areas\Contact\Views\*.*" buildAction="Compile" copyToOutput="true" />
+      <files include="Areas\Contact\Models\*.*" buildAction="Compile" copyToOutput="true" />
+      <files include="Areas\Contact\ContactAreaRegistration.cs" buildAction="Compile" copyToOutput="true" />
+      <files include="Views\_ViewStart.cshtml" buildAction="Compile" copyToOutput="true" />
+      <files include="Readme.md" buildAction="None" copyToOutput="true" />
+    </contentFiles>
+  </metadata>
+  <files>
+    <file src="Areas\Contact\Controllers\**" target="Content\Areas\Contact\Controllers\" />
+    <file src="Areas\Contact\Views\**" target="Content\Areas\Contact\Views\" />
+    <file src="Areas\Contact\Models\**" target="Content\Areas\Contact\Models\" />
+    <file src="Areas\Contact\ContactAreaRegistration.cs" target="Content\Areas\Contact" />
+    <file src="Readme.md" target="Content\Areas\Contact" />
+    <file src="Views\_ViewStart.cshtml" target="Content\Areas\Contact\Views\" />
+  </files>
+</package>
